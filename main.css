@@ -1,0 +1,32 @@
+#canvas{
+  display: block;
+  margin: 0 auto;
+}
+
+.lost{
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: green;
+  padding: 30px;
+  text-align: center;
+
+}
+.lost-block{
+  display: block;
+}
+.lost-text{
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+}
+.play-btn{
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(228, 224, 32);
+  padding: 10px 20px;
+}
